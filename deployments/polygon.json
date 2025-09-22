@@ -1,0 +1,40 @@
+{
+  "network": "polygon",
+  "chainId": 137,
+  "deployer": "0x9898CD31a9CE1D8bfbB4EdEa77b5C044c882B65D",
+  "timestamp": "2025-09-18T05:05:40.259Z",
+  "contracts": {
+    "MediToken": {
+      "address": "0x00a292C808D9f5Efa5708BaBd0112b408624c4B1",
+      "transactionHash": "0xdf4b38c010c6e5b09e42bf4240e819aa0a24ad0fac52484bf0d730aaeef2f303",
+      "blockNumber": null
+    },
+    "MedicineRegistry": {
+      "address": "0xE02c6E565CCcd6B4c9Aa80898d7d406AEf16b780",
+      "transactionHash": "0x82efe426e1bbaa806aa77955c385cf43c7e650365d7dbd786cdb946f54d10c8b",
+      "blockNumber": null
+    }
+  },
+  "testBatch": {
+    "batchId": "TEST-polygon-1758171934833",
+    "participants": [
+      "0x1234567890123456789012345678901234567890",
+      "0x2345678901234567890123456789012345678901",
+      "0x3456789012345678901234567890123456789012"
+    ],
+    "roles": [
+      1,
+      2,
+      3
+    ],
+    "transactionHash": "0x86930eee88be20c5839d35986b06e495a38c281db40d69cfbe8ef4647e18337c",
+    "gasUsed": "603382"
+  },
+  "deploymentCost": "0.0301691",
+  "supplyChainFeatures": {
+    "multiParticipantTracking": true,
+    "roleBasedVerification": true,
+    "customerRewardSystem": true,
+    "stateChannelSupport": true
+  }
+}
