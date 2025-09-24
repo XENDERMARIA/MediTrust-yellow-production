@@ -10,8 +10,8 @@ const { ethers } = require('ethers');
 
 // === CONFIGURATION ===
 const CLEARNODE_URL = 'wss://clearnet.yellow.com/ws';
-const PRIVATE_KEY = '0xbd7a7cea1531789724c61fe8938d9c134373a293fb1ab5dc7e4bdd013c97f348';
-const ADDRESS = '0x9898CD31a9CE1D8bfbB4EdEa77b5C044c882B65D';
+const PRIVATE_KEY = '';
+const ADDRESS = '';
 
 // === YOU CAN CHANGE THIS TO ANY OTHER WALLET FOR TESTING ===
 const OTHER_PARTICIPANT = '0x1111111111111111111111111111111111111111';
