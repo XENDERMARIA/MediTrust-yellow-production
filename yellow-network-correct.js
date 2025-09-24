@@ -131,8 +131,8 @@ class YellowNetworkClient {
 // Test it
 async function test() {
   const client = new YellowNetworkClient({
-    privateKey: '0xbd7a7cea1531789724c61fe8938d9c134373a293fb1ab5dc7e4bdd013c97f348',
-    address: '0x9898CD31a9CE1D8bfbB4EdEa77b5C044c882B65D'
+    privateKey: '',
+    address: ''
   });
   
   await client.connect();
