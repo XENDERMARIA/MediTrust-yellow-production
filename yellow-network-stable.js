@@ -6,8 +6,8 @@ const { ethers } = require('ethers');
 
 class YellowNetworkStableClient {
   constructor() {
-    this.privateKey = process.env.PRIVATE_KEY || '0xbd7a7cea1531789724c61fe8938d9c134373a293fb1ab5dc7e4bdd013c97f348';
-    this.address = process.env.WALLET_ADDRESS || '0x9898CD31a9CE1D8bfbB4EdEa77b5C044c882B65D';
+    this.privateKey = process.env.PRIVATE_KEY || '';
+    this.address = process.env.WALLET_ADDRESS || '';
     this.wallet = new ethers.Wallet(this.privateKey);
     this.ws = null;
     this.isConnected = false;
